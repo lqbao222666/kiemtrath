@@ -1,0 +1,1001 @@
+// trang chủ 
+<body>
+    <header>
+      <img id="header-img1" src="./images/header-img1.png" alt="" />
+      <img id="header-img2" src="./images/header-img2.png" alt="" />
+      <img id="header-img3" src="./images/header-img3.png" alt="" />
+      <a id="#top" href="trangchu.html"
+        ><img src="./images/logo.png" alt=""
+      /></a>
+      <nav>
+        <a href="index.html">Trang Chủ</a>
+        <a href="gioithieu.html">Giới Thiệu</a>
+        <a href="sanpham.html">Sản Phẩm</a>
+        <a href="tintuc.html">Tin Tức</a>
+        <a href="dangnhap.html">Đăng Nhập</a>
+        <a href="dangky.html">Đăng Ký</a>
+        <a href="lienhe.html">Liên Hệ</a>
+        <div class="search-container">
+          <form method="get" action="#">
+            <div class="input-container">
+              <input
+                id="search"
+                class="search-input"
+                type="text"
+                placeholder="Nhập nội dung cần 
+tìm..."
+                name="search"
+              />
+              <i class="fa fa-search icon-white"></i>
+              <i class="fa fa-shopping-cart icon-pink"></i>
+            </div>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <img class="round-figure" src="./images/trangchu/bg-home.jpg" alt="" />
+        <h1>Sản Phẩm Mới</h1>
+        <section class="media-left">
+          <h2>Sữa chua tốt cho sức khỏe</h2>
+          <div class="a1">
+            <div><img src="./images/trangchu/yogurt.jpg" alt="" /></div>
+            <div>
+              <p class="chu1">
+                Sữa chua là một loại thực phẩm được tạo ra từ quá trình lên men
+                sữa của các vi khuẩn. Hầu hết các loại sữa đều có thể dùng làm
+                sữa chua, tuy nhiên sữa bò là được dùng nhiều hơn hết. Sữa chua
+                thường (10-30% chất béo), váng sữa nguyên kem (6-15% chất béo).
+                <a href="#" class="readmore">Xem chi tiết</a>
+              </p>
+            </div>
+          </div>
+        </section>
+        <h1>Góc Thành Viên</h1>
+        <section class="media-right">
+          <h2>Sữa Chua Làm Nhà</h2>
+          <div class="a2">
+            <div class="a2a">
+              <video width="320" height="240" controls>
+                <source src="./images/trangchu/yogurt.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="a2b">
+              <p class="chu1">
+                Học làm sữa chua tại gia cùng chuyên gia.Trong thực đơn dinh dưỡng
+                giá thành rẻ.<a href="#" class="readmore">Xem chi tiết</a>
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="two-cols">
+          <h2>Hướng Dẫn Làm Sữa Chua Không Đường</h2>
+
+          <h3>Nguyên liệu làm sữa chua không đường</h3>
+          <ul>
+            <li>1 lít sữa tươi không đường</li>
+            <li>
+              1 hộp sữa chua men cái không đường (bạn có thể mua sữa chua đóng
+              hộp không đường như Vinamilk, TH True Milk,...)
+            </li>
+            <li>Dụng cụ nấu và ủ sữa chua</li>
+          </ul>
+          <h3>Các bước thực hiện</h3>
+          <ol>
+            <li>
+              Cho sữa chua không đường vào nồi, đun nóng lên và khuấy đều, nhẹ
+              tay theo 1 chiều. Tới khi sữa đạt khoảng 40 độ C thì tắt bếp. Bạn
+              có thể dùng tay để kiểm tra, thấy sữa ấm vừa phải là được
+            </li>
+            <li>
+              Đổ hộp sữa chua làm men cái vào và khuấy đều, múc vào hũ và đem đi
+              ủ 6-8 tiếng
+            </li>
+            <li>
+              Sau khi ủ xong, bạn có thể dùng 1 hũ sữa chua vừa ủ để ăn thử, nếu
+              thấy đạt vị sữa chua rồi có thể bảo quản trong ngăn mát tủ lạnh và
+              thưởng thức dần nhé
+            </li>
+          </ol>
+        </section>
+        <section>
+          <h2>Đặt Hàng Ngay</h2>
+          <div class="order-step">
+            <div>
+              <image src="./images/trangchu/order_1.png" width="100px" />
+              <p>Gọi Điện</p>
+            </div>
+            <div>
+              <image src="./images/trangchu/order_2.png" width="100px" />
+              <p>Đặt Hàng</p>
+            </div>
+            <div>
+              <image src="./images/trangchu/order_3.png" width="100px" />
+              <p>Nhận Hàng</p>
+            </div>
+            <div>
+              <image src="./images/trangchu/order_4.png" width="100px" />
+              <p>Thanh Toán</p>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+    <footer>
+      &#169; Bản quyền thuộc về Luu Ba Hoang.
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-pinterest"></a>
+      <a href="#logo" class="anhtop"
+        ><img src="./images/top.png" width="50px"
+      /></a>
+    </footer>
+  </body>
+
+// css
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+    "header-cell"
+    "nav-cell"
+    "main-cell"
+    "footer-cell";
+}
+main,
+footer,
+header {
+  border: 1px solid #ccc7c8;
+  background-color: #fff;
+  border-radius: 5px;
+}
+header {
+  grid-area: header-cell;
+  height: 100px;
+  background-image: url(images/header.png);
+}
+#header-img1 {
+  height: 100px;
+  top: -30px;
+  position: absolute;
+  animation: img1 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes img1 {
+  from {
+    left: 80%;
+  }
+  to {
+    left: 30%;
+  }
+}
+#header-img2 {
+  height: 70px;
+  top: -5px;
+  position: absolute;
+  animation: img2 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes img2 {
+  from {
+    left: 80%;
+  }
+  to {
+    left: 45%;
+  }
+}
+#header-img3 {
+  height: 80px;
+  top: 0px;
+  position: absolute;
+  animation: img3 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes img3 {
+  from {
+    left: 80%;
+  }
+  to {
+    left: 63%;
+  }
+}
+nav {
+  grid-area: nav-cell;
+  margin-top: 20px;
+}
+
+nav > a {
+  top: 0px;
+  margin: 3px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  padding: 2px 4px;
+  height: 20px;
+  color: #ed4190;
+  text-align: center;
+  font-size: 17px;
+  background-color: #ffffff80;
+  text-decoration: none;
+  box-shadow: 0px 0px 3px 0px #00000066, 0px 0px 2px 0px #0000004d;
+  float: left;
+}
+nav > a:hover {
+  color: #fff;
+  background-color: #ed4190;
+}
+
+.search-container {
+  float: right;
+  padding-top: 3px;
+}
+.icon-white,
+.icon-pink {
+  padding: 4px;
+  background: #cddc39;
+  min-width: 30px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+.icon-pink {
+  color: #ed4190;
+  margin-left: 5px;
+}
+main {
+  grid-area: main-cell;
+  display: grid;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+main.one-col {
+  grid-template-areas:
+    "left-cell"
+    "article-cell"
+    "right-cell";
+}
+main.two-cols-left {
+  grid-template-columns: 1fr 3fr;
+  grid-template-areas: "left-cell article-cell";
+}
+main.two-cols-right {
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas: "article-cell right-cell ";
+}
+
+main.three-cols {
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-areas: "left-cell article-cell right-cell";
+}
+article {
+  display: grid;
+  grid-area: article-cell;
+  grid-template-rows: auto;
+}
+aside.left-side {
+  grid-area: left-cell;
+}
+aside.righ-side {
+  grid-area: right-cell;
+}
+aside.left-side,
+aside.righ-side {
+  margin: 2px;
+  padding: 5px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+footer {
+  grid-area: footer-cell;
+  text-align: center;
+  margin-top: 2px;
+}
+.anhtop {
+  float: right;
+  padding: 10px;
+  position: fixed 0 10px 5px 0;
+}
+footer a {
+  color: #ed4190;
+}
+.order-step {
+  margin-bottom: 5px;
+  width: 100%;
+  text-align: center;
+}
+.order-step div {
+  border: 1px solid #ed4190;
+  padding-top: 5px;
+  width: 24%;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 34px;
+}
+h1 {
+  margin: 12px 0 16px;
+  font-size: 28px;
+  line-height: 34px;
+  color: #f90b6d;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1:after {
+  position: relative;
+  left: 50%;
+  display: block;
+  content: " ";
+  width: 200px;
+  height: 3px;
+  transform: skewX(-12deg) translateX(-50%);
+  background: radial-gradient(#cddc39, #fff);
+}
+
+h3,
+h2 {
+  margin: 5px 0 10px 0;
+  font-size: 20px;
+  line-height: 28px;
+  color: #f90b6d;
+}
+h3 {
+  line-height: 24px;
+  font-size: 20px;
+}
+/* ------- */
+.image-left img,
+.image-left video {
+  float: left;
+  width: 30%;
+}
+.image-left p,
+.image-right p {
+  margin: 0;
+  width: 69%;
+}
+.image-left p {
+  float: right;
+}
+.image-right img,
+.image-right video {
+  width: 29%;
+  float: right;
+}
+.image-right p {
+  float: left;
+}
+
+.two-cols {
+  column-count: 2;
+}
+
+.two-cols > h2 {
+  column-span: all;
+}
+
+.two-cols > h3 {
+  break-before: column;
+}
+
+section.products {
+  display: flex;
+  margin: 0px 1px;
+  padding: 0px;
+  color: #ed4190;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+section.products div {
+  display: flex;
+  margin: 3px;
+  border: 1px solid #dbd7d9;
+  border-radius: 5px;
+  padding: 5px;
+  flex: 1;
+  flex-direction: column;
+  background: linear-gradient(to top, #cddc39 0%, transparent 10%);
+}
+
+section.products div > img {
+  margin: auto;
+}
+
+section.products div > p {
+  color: #000;
+  text-align: justify;
+  margin-bottom: 5px;
+}
+section.products span {
+  display: block;
+  margin: 4px;
+  padding: 3px;
+  min-width: 100%;
+  text-align: center;
+  color: #000;
+  line-height: 2;
+}
+.map-icon {
+  padding: 2px 15px;
+  color: #ed4190;
+  text-align: center;
+  background-color: #cddc39;
+}
+
+.form-icons {
+  display: inline-block;
+  padding: 4px;
+  min-width: 30px;
+  text-align: center;
+  color: #fff;
+  background-color: #cddc39;
+}
+
+form {
+  margin: auto;
+}
+.khoitong1 {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.a1 {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.a2{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas: 
+  "aa bb"
+}
+.a2a{
+  grid-area: bb;
+}
+.a2b{
+  grid-area: aa;
+}
+
+
+ 
+<main>
+        <article>
+          <div class="khoitong1">
+            <div>
+              <h1>giới thiệu</h1>
+              <img src="./images/gioithieu/bg-header-about.jpg" alt="loi" />
+              <h1>Câu chuyện giới thiệu</h1>
+              <p>
+                Khi dự án "Sữa chua trân châu" được đặt lên bàn, có rất nhiều
+                câu hỏi bủa vây lấy chúng tôi: Làm sao để nhân bản một món ăn
+                <b>“đặc sản”</b> nhưng vẫn đảm bảo chất lượng cho từng sản phẩm?
+                Liệu rằng đây có phải mô hình phát triển bền vững hay chỉ là
+                “
+                cần một lý do đủ mạnh để tiếp tục, lý do mà chúng tôi bắt đầu.
+              </p>
+              <h1>thực hiện ước mơ</h1>
+              <p>
+                Anh Phạm Tuấn, được sinh ra trong gia đình có truyền thống làm
+                sữa chua trân châu từ những năm 1990. Món ăn thơm ngon này đã
+                này là khởi nguôn ý tưởng của hệ thống Sữa chua trân châu, mà
+                cho tới giờ hay gọi vui với nhau là
+                <i>“cuộc gặp gỡ ngàn tỷ”</i>. Ba chàng trai trẻ năm ấy, dù mới
+                chỉ gặp mà tưởng như đã thân quen từ lâu. Họ cùng chung lý tưởng
+                sống, cùng "phải lòng" với sữa chua trân châu, cùng một ước mơ
+                biến món ăn địa phương này trở thành niềm tự hào dân tộc
+              </p>
+              <h1>những khởi đầu thuận lợi</h1>
+              <p>
+                Khác với nhiều thương hiệu F&B có khởi đầu không mấy dễ dàng,
+                Sữa chua trân châu lại được khách hàng đón nhận và ủng hộ ngay
+                từ khi ra mắt cửa hàng đầu tiên. Chỉ sau hơn 3 tháng phát triển,
+                phụ huynh, từ các bạn trẻ đến cả những người lớn tuổi.
+              </p>
+            </div>
+            <div>
+              <h1>Hãy đăng ký thành viên ngay hôm nay</h1>
+              <p>
+                Thành viên được hưởng nhiều ưu đãi: tham gia khóa học miễn phí,
+                tham gia các cuộc thi, nhận tài liệu các món mới...
+              </p>
+            </div>
+          </div>
+        </article>
+      </main>
+
+
+
+
+ 
+// san pham
+<main class="one-col">
+      <article>
+        <h1>Sản Phẩm Truyền Thống</h1>
+        <section class="products">
+          <div>
+            <img src="./images/sanpham/kiwi.jpg" alt="" />
+            <h1>Sữa Chua Vị Kiwi</h1>
+            <p>
+              Hương vị thơm ngon của trái Kiwi xanh, nổi tiếng của đất nước New
+              Zealand có trong Sữa chua vị Kiwi xanh đem đến một món ăn nhẹ Siêu
+              ngon và tốt cho hệ tiêu hóa.
+              <a href="sanpham.html">Xem chi tiết</a>
+              <span>
+                Số lượng:
+                <input
+                  id="sp001"
+                  type="number"
+                  max="100"
+                  min="0"
+                  value="0"
+                  size="3"
+                />
+                <button onclick="addCart('sp001')">Đặt hàng</button>
+              </span>
+            </p>
+          </div>
+
+          <div>
+            <img src="./images/sanpham/mango.jpg" alt="" />
+            <h1>Sữa Chua Vị Xoài</h1>
+            <p>
+              Sữa chua xoài thích hợp cho mọi lứa tuổi, vì vậy hãy để cả gia
+              đình quây quần bên nhau cùng thưởng thức món ăn thơm ngon, bổ
+              dưỡng này.
+              <a href="sanpham.html">Xem chi tiết</a>
+              <span>
+                Số lượng:
+                <input
+                  id="sp001"
+                  type="number"
+                  max="100"
+                  min="0"
+                  value="0"
+                  size="3"
+                />
+                <button onclick="addCart('sp001')">Đặt hàng</button>
+              </span>
+            </p>
+          </div>
+
+          <div>
+            <img src="./images/sanpham/pineapple.jpg" alt="" />
+            <h1>Sữa Chua Vị Dưa Lưới</h1>
+            <p>
+              Trong dưa lưới chứa rất nhiều vitamin C có tác dụng làm đẹp da
+              hiệu quả. Phụ nữ ăn sinh tổ dưa lưới thường xuyên sẽ có làn da mịn
+              màng.
+              <a href="sanpham.html">Xem chi tiết</a>
+              <span>
+                Số lượng:
+                <input
+                  id="sp001"
+                  type="number"
+                  max="100"
+                  min="0"
+                  value="0"
+                  size="3"
+                />
+                <button onclick="addCart('sp001')">Đặt hàng</button>
+              </span>
+            </p>
+          </div>
+        </section>
+        <h1>Sản Phảm Mới</h1>
+        <section class="products">
+          <div>
+            <img src="./images/sanpham/strawberry.jpg" alt="" />
+            <h2>Sữa Chua Vị Mâm Xôi</h2>
+            <p>
+              Quả mâm xôi là loại quả ăn họ hoa hồng, có nguồn gốc từ châu Âu,
+              Bắc Á và được trồng ở các vùng ôn đới trên toàn thế giới. Có nhiều
+              loại, bao gồm đen, tim và vàng.
+              <a href="sanpham.html">Xem chi tiết</a>
+              <span>
+                Số lượng:
+                <input
+                  id="sp001"
+                  type="number"
+                  max="100"
+                  min="0"
+                  value="0"
+                  size="3"
+                />
+                <button onclick="addCart('sp001')">Đặt hàng</button>
+              </span>
+            </p>
+          </div>
+
+          <div>
+            <img src="./images/sanpham/blackberry.jpg" alt="" />
+            <h2>Sữa Chua Vị Dâu Tây</h2>
+            <p>
+              Dâu tây là một loài cây thân tháo có thân ngắn và các chiếc lá mọc
+              gần với nhau. Lá có nhiều gai, bề mặt lá có nhiều lông tơ và kích
+              thước lá có thể khác nhau ở từng giống.
+              <a href="sanpham.html">Xem chi tiết</a>
+              <span>
+                Số lượng:
+                <input
+                  id="sp001"
+                  type="number"
+                  max="100"
+                  min="0"
+                  value="0"
+                  size="3"
+                />
+                <button onclick="addCart('sp001')">Đặt hàng</button>
+              </span>
+            </p>
+          </div>
+
+          <div>
+            <img src="./images/sanpham/blueberry.jpg" alt="" />
+            <h2>Sữa Chua Vị Việt Quốc</h2>
+            <p>
+              Quả việt quất chứa các dưỡng chất tốt cho sức khỏe như chất xơ,
+              kali, folate, vitamin C và vitamin B6 (những chất hỗ trợ rất tốt
+              cho sức khỏe của tim).
+              <a href="sanpham.html">Xem chi tiết</a>
+              <span>
+                Số lượng:
+                <input
+                  id="sp001"
+                  type="number"
+                  max="100"
+                  min="0"
+                  value="0"
+                  size="3"
+                />
+                <button onclick="addCart('sp001')">Đặt hàng</button>
+              </span>
+            </p>
+          </div>
+        </section>
+
+        <h1>Sản phẩm trái cây nhiệt đới</h1>
+        <section class="products">
+          <div>
+            <img src="./images/sanpham/grapes.jpg" alt="" />
+            <h2>Sữa Chua Vị Bưởi</h2>
+            <p>
+              Bưởi là một loại quả thuộc chỉ Cam chanh có nguồn gốc từ Đông Nam
+              Á. Bưởi tiếng Anh gọi là Pomelo, tuy nhiên nhiều từ điền ở Việt
+              Nam lại dịch thành grapefruit.
+              <a href="sanpham.html">Xem chi tiết</a>
+              <span>
+                Số lượng:
+                <input
+                  id="sp001"
+                  type="number"
+                  max="100"
+                  min="0"
+                  value="0"
+                  size="3"
+                />
+                <button onclick="addCart('sp001')">Đặt hàng</button>
+              </span>
+            </p>
+          </div>
+
+          <div>
+            <img src="./images/sanpham/green-apple.jpg" alt="" />
+            <h2>Sữa Chua Vị Táo Xanh</h2>
+            <p>
+              Táo xanh có hàm lượng chất xơ cao giúp tăng cường quá trình trao
+              đổi chất của cơ thể. Bên cạnh đó, chất xơ còn giúp quá trình giải
+              độc gan và hệ tiêu hóa.
+              <a href="sanpham.html">Xem chi tiết</a>
+              <span>
+                Số lượng:
+                <input
+                  id="sp001"
+                  type="number"
+                  max="100"
+                  min="0"
+                  value="0"
+                  size="3"
+                />
+                <button onclick="addCart('sp001')">Đặt hàng</button>
+              </span>
+            </p>
+          </div>
+
+          <div>
+            <img src="./images/sanpham/cantaloupe.jpg" alt="" />
+            <h2>Sữa Chua Vị Dứa</h2>
+            <p>
+              Dứa có các tên gọi khác như là khóm, thơm, khóm, gai hoặc huyền
+              nương. Đây là một loại quả nhiệt đới. Dứa là cây bản địa của các
+              nước Nam Mỹ.
+              <a href="sanpham.html">Xem chi tiết</a>
+              <span>
+                Số lượng:
+                <input
+                  id="sp001"
+                  type="number"
+                  max="100"
+                  min="0"
+                  value="0"
+                  size="3"
+                />
+                <button onclick="addCart('sp001')">Đặt hàng</button>
+              </span>
+            </p>
+          </div>
+        </section>
+      </article>
+    </main>
+ 
+//tin tuc
+<main class="two-cols-left">
+      <article>
+        <h1>TIN TỨC</h1>
+        <div class="image-right">
+          <h2>LỘ DIỆN NĂNG LỰC TỪ TRÁI XOÀI!</h2>
+          <img src="./images/tintuc/news1.jpg" width="400" />
+          <p>
+            Xoài là một trong những cây ăn trái chủ lực của đồng bằng sông Cửu
+            Long (ĐBSCL), chiếm khoảng 48% tổng diện tích xoài cả nước. Trong
+            đó, tỉnh Đồng Tháp hiện có diện tích trồng xoài khoảng 12.171ha -
+            lớn nhất vùng ĐBSCL với sản lượng hàng năm gần 124 ngàn tấn.
+            <a href="">Xem chi tiết</a>
+          </p>
+        </div>
+
+        <div class="image-right">
+          <h2>SỮA CÁC LOẠI HẠT - MÓN NGON CHO HỆ MIỄN DỊCH KHỎE</h2>
+          <img src="./images/tintuc/news2.jpg" width="400" />
+          <p>
+            Các loại sữa hạt càng ngày trở nên quen thuộc với mọi người, bởi hàm
+            lượng dinh dưỡng cao, và lành tính. Với thị trường sữa hạt đa dạng
+            phong phú, hôm nay chúng ta cùng điểm qua xem có các loại sữa hạt
+            nào, và loại nào là bổ dưỡng nhất cho sức khỏe?
+            <a href="">Xem chi tiết</a>
+          </p>
+        </div>
+
+        <div class="image-right">
+          <h2>SỮA CHUA KIWI - MÓN QUÀ CHO SỨC KHỎE</h2>
+          <img src="./images/tintuc/news3.jpg" width="400" />
+          <p>
+            Kiwi thành phần dinh dưỡng rất cao so với các loại hoa quả khác. Hàm
+            cần thiết mỗi ngày.
+            <a href="">Xem chi tiết</a>
+          </p>
+        </div>
+
+        <div class="image-right">
+          <h2>RA MẮT APP SỮA CHUA Freeeze TRÊN NỀN TẢNG IOS</h2>
+          <img src="./images/tintuc/news4.jpg" width="400" />
+          <p>
+            Nhằm mang đến cho tất cả khách hàng những trải nghiệm thú vị nhất
+            hàng mua sắm được mọi lúc mọi nơi với nhiều tiện ích.
+            <a href="">Xem chi tiết</a>
+          </p>
+        </div>
+
+        <div class="image-right">
+          <h2>ĐĂNG KÝ THÀNH VIÊN - NHẬN NGAY ƯU ĐÃI</h2>
+          <img src="./images/tintuc/news5.jpg" width="400" />
+          <p>
+            Công ty sữa chua hân hạnh mang đến chương trình "Đăng Ký Thành Viên"
+            Freeeze dành cho tất cả khách hàng đăng kí tài khoản và phát sinh
+            đơn hàng.
+            <a href="">Xem chi tiết</a>
+          </p>
+        </div>
+
+        <div class="image-right">
+          <h2>TUYỂN GIÁM SÁT CHUỖI CỬA HÀNG</h2>
+          <img src="./images/tintuc/news6.jpg" width="400" />
+          <p>
+            Tuyển Giám Sát chuỗi cửa hàng: - tại khu vực TP Hải Phòng & các tỉnh
+            hàng; Kiểm tra lịch làm việc của các cửa hàng.
+            <a href="">Xem chi tiết</a>
+          </p>
+        </div>
+      </article>
+      <aside class="left-side">
+        <h1>ĐƯỢC QUAN TÂM</h1>
+        <div>
+          <img src="./images/tintuc/hotnews.jpg" width="100%" />
+          <h2>KHAI TRƯƠNG HÂN HOAN - ƯU ĐÃI NGẬP TRÀN</h2>
+          <p>
+            Khai trương hân hoan - ưu đãi ngập tràn 🌈 🥰Thêm 1 ngôi nhà mới của
+            Sữa chua Freeeze được khai trương.
+            <a href="">Xem chi tiết</a>
+          </p>
+        </div>
+      </aside>
+    </main>
+
+// dang nhap
+<main class="one-col">
+      <h1>Đăng nhập</h1>
+      <form method="post" enctype="application/x-www-form-urlencoded">
+        <table>
+          <tr>
+            <td colspan="2">
+              <img src="./images/dangnhap/userlogin.png" width="200" alt="" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="email" class="form-icons"
+                ><i class="fa fa-envelope"></i
+              ></label>
+            </td>
+            <td>
+              <input
+                id="email"
+                type="text"
+                name="email"
+                placeholder="Nhập email"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="passwd" class="form-icons"
+                ><i class="fa fa-key"></i
+              ></label>
+            </td>
+            <td>
+              <input
+                id="passwd"
+                type="password"
+                name="psw"
+                placeholder="Nhập mật khẩu"
+                required
+              />
+            </td>
+          </tr>
+        </table>
+        <div>
+          Bạn quên <a href="">Mật Khẩu?</a>
+          <input type="checkbox" name="remember" checked />Ghi nhớ cho lần đăng
+          nhập sau
+          <br />
+          <input type="submit" value="Đăng Nhập" />
+          <input type="reset" value="Hủy" />
+        </div>
+      </form>
+    </main>
+ 
+// dang ky
+<main class="one-col">
+      <h1>Đăng ký</h1>
+      <form action="" method="post" enctype="multipart/form-data">
+        <table>
+          <tr>
+            <td>
+              <label for="email" class="form-icons"
+                ><i class="fa fa-envelope"></i
+              ></label>
+            </td>
+            <td>
+              
+              <input
+                id="email"
+                type="text"
+                name="email"
+                placeholder="Vui lòng nhập email"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="passwd" class="form-icons"
+                ><i class="fa fa-key"></i
+              ></label>
+            </td>
+            <td>
+              <input
+                id="passwd"
+                type="password"
+                name="psw"
+                placeholder="Vui lòng nhập mật khẩu"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="repasswd" class="form-icons"
+                ><i class="fa fa-key"></i
+              ></label>
+            </td>
+            <td>
+              <input
+                id="repasswd"
+                type="password"
+                name="psw2"
+                placeholder="Vui lòng nhập lại mật khẩu"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label class="form-icons"><i class="fa fa-group"></i></label>
+            </td>
+            <td>
+              <input id="silver" type="radio" name="memberType" />
+              <label for="silver"><b>Bạc</b></label>
+              <input id="gold" type="radio" name="memberType" />
+              <label for="gold"><b>Vàng</b></label>
+              <input id="platinum" type="radio" name="memberType" />
+              <label for="platinum"><b>Bạch Kim</b></label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="avatar" class="form-icons"
+                ><i class="fa fa-id-badge"></i
+              ></label>
+            </td>
+            <td><input id="avatar" type="file"</td>
+          </tr>
+        </table>
+        <div>
+          Thông qua việc tạo tài khoản, bạn đồng ý với
+          <a href="">Điều khoản & Quyền riêng tư của chúng tôi.</a>
+          <br />
+          <input type="submit" value="Đăng Ký" />
+          <input type="reset" value="Hủy" />
+        </div>
+      </form>
+    </main>
+ 
+//lien he
+<main class="one-col">
+      <h1>Liên hệ</h1>
+      <p>
+        <span class="map-icon"><i class="fa fa-map-marker"></i></span>
+        <b>Địa chỉ: 0123, Tòa Nhà ABC, TP. Cần Thơ</b>
+        Nếu bạn có góp ý, vui lòng liên hệ bằng thư điện tử hoặc sử dụng biểu
+        mẫu bên dưới. Xin cám ơn.
+      </p>
+      <form
+        method="post"
+        enctype="application/x-www-form-urlencoded"
+        onsubmit="return ctValidate(this);" >
+        <h1>Góp ý</h1>
+        <div>
+          <label for="name" class="form-icons" ><i class="fa fa-user"></i >
+</label>          <input            id="name"            type="text"            name="name"        placeholder="Vui lòng nhập Họ tên của bạn"
+            required     />
+        </div>
+        <div>
+          <label for="email" class="form-icons"><i class="fa fa-envelope"></i></label>
+          <input id="email" type="text"  name="email" placeholder="Vui lòng nhập Email" required/>
+        </div>
+        <div>
+          <label class="form-icons"><i class="fa fa-list"></i></label>
+          <select size="1">
+            <option>Về Sảm Phẩm/ Dịch Vụ</option>
+            <option>Về Ưu Đãi Thành Viên</option>
+            <option>Về Tin Tuyển Dụng</option>
+          </select>
+        </div>
+        <div>
+          	<label for="details" class="form-icons"  ><i class="fa fa-sticky-note"></i  >
+	</label> <textarea id="details" rows="7"     cols="50"   type="text"   name="details"
+            placeholder="Nội dung cần liên hệ required ></textarea>
+        </div>
+        <input type="submit" value="Gửi" />
+      </form>
+    </main>
